@@ -44,9 +44,17 @@ Non-trainable params: 448
  # Usage 
 
  Run the Jupyter Notebook: Open and run the "Chest Xray Classification using CNN.ipynb" notebook to see the complete project implementation.
-```
+```bash
 jupyter notebook Chest Xray Classification using CNN.ipynb
 ```
+
+### Run the Streamlit App
+
+```bash
+streamlit run app.py
+```
+### Insert Normal or COVID X-ray Images
+To use the model, insert chest X-ray images into the Streamlit app (app.py). The model will predict whether the image indicates a normal condition or COVID-19 infection.
 
 The notebook contains detailed instructions and code cells for:
 
