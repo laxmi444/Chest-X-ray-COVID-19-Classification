@@ -39,18 +39,17 @@ dense_3 (Dense)               (None, 1)                 129
 Total params: 2,453,697
 Trainable params: 2,453,249
 Non-trainable params: 448
+ ```
 
-## Usage
-Run the Jupyter Notebook: Open and run the _xray_classification.ipynb notebook to see the complete project implementation.
+ # Usage 
 
-To run this project, you need to have Python and Jupyter Notebook installed. You can install the necessary dependencies using the following command:
-
-Copy code
-pip install numpy pandas tensorflow scikit-learn matplotlib opencv-python
+ Run the Jupyter Notebook: Open and run the "Chest Xray Classification using CNN.ipynb" notebook to see the complete project implementation.
+```
+jupyter notebook Chest Xray Classification using CNN.ipynb
+```
 
 The notebook contains detailed instructions and code cells for:
 
-Copy code
-Loading and preprocessing the dataset.
-Building, training, and evaluating the CNN model.
-Visualizing results and performance metrics.
+1. Loading and preprocessing the dataset.
+2. Building, training, and evaluating the CNN model.
+3. Visualizing results and performance metrics.
